@@ -2,7 +2,7 @@
 <view class="container">
 
   <view class="list">
-    <view class="list-item" bindtap="testFunction">
+    <view class="list-item" bindtap="testFunction1">
       <text>测试云函数</text>
     </view>
     <view class="list-item">
