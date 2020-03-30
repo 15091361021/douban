@@ -10,7 +10,7 @@
 	},
 	"appid": "wx9e372cd0d0d3c6fa",
 	"projectname": "douban",
-	"libVersion": "2.2.5",
+	"libVersion": "2.2.4",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {

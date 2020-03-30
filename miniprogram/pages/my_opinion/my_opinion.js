@@ -62,5 +62,9 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  addOpinion:function(){
+    console.log("进入到了增加意见反馈页面")
+    
   }
 })

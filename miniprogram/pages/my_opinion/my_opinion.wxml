@@ -1,2 +1,10 @@
 <!--pages/my_opinion/my_opinion.wxml-->
 <text>pages/my_opinion/my_opinion.wxml</text>
+<view>
+  <view>
+    <button bindtap="addOpinion"> 增加反馈</button>
+  </view>
+  <view>
+
+  </view>
+</view>
