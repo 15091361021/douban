@@ -87,9 +87,16 @@ Page({
    * 个人登录的界面
    */
   dsk: function () {
-    wx.navigateTo({
-      url: '../index/index',
-    })
+    console.log(this.nickName)
+    console.log(this.avatarUrl)
+    if(this.nickName==="未登录"){
+      console.log("跳转到登录页面");
+    }else{
+      console.log("已经授权了信息");
+    }
+    // wx.navigateTo({
+    //   url: '../index/index',
+    // })
   },
   /**
    * 我的收藏

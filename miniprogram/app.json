@@ -13,17 +13,19 @@
     "pages/my_comment/my_comment",
     "pages/my_opinion/my_opinion",
     "pages/my_news/my_news",
-    "pages/my_set/my_set"
+    "pages/my_set/my_set",
+    "pages/test/test",
+    "pages/face_city/face_city"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "租房项目",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "backgroudColor": "#ffffff",
+    "backgroundColor": "#ffffff",
     "color": "#999999",
     "selectedColor": "#cc1004",
     "borderStyle": "black",

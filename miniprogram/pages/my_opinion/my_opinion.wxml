@@ -2,9 +2,19 @@
 <text>pages/my_opinion/my_opinion.wxml</text>
 <view>
   <view>
-    <button bindtap="addOpinion"> 增加反馈</button>
+    <van-button type="primary">测试</van-button>
+
   </view>
   <view>
-
+    <shape android:shape="rectangle" border="1rpx">
+      <gradient
+      android:angle="270"
+      android:startColor="#EC4032"
+      android:endColor="#FF9668"
+      />
+      <corners
+      android:radius="6dp"
+      />
+    </shape>
   </view>
 </view>

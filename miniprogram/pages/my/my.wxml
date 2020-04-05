@@ -1,4 +1,4 @@
-<view class="tops">
+<view class="tops" bidntap="dsk">
   <view class="img">
     <image src='{{userInfo.avatarUrl}}' class="user_img"></image>
   </view>

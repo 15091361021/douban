@@ -7,8 +7,10 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"nodeModules": true,
+		"coverView": true,
 		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -16,7 +18,8 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		}
+		},
+		"nodeModules": true
 	},
 	"appid": "wx9e372cd0d0d3c6fa",
 	"projectname": "douban",
