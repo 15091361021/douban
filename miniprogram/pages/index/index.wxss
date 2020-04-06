@@ -31,3 +31,25 @@
   border-radius: 30rpx;
   background: white;
 }
+
+.content{
+  margin:20rpx;
+  width:730rpx;
+  text-align:center;
+  border-top: 1rpx solid #e0e0e0;
+  display: flex;
+}
+.content img{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right:10rpx;
+}
+.content .maincontent{
+
+}
+/* .line-limit-length {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+} */
+

@@ -9,6 +9,83 @@ Page({
     latitude: '',
     longitude: '',
     comm:[],
+    viewDatas:[{
+      mainIconPath:'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      iconPaths:['cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg'],//多张图片
+      title:'房源信息系快点放假奥德赛科技发达绿山咖啡的疯狂的涉及法律框架按第三方 ',
+      location:'',
+      direction:'朝南',
+      way:'整租',
+      houseType:'一室一厅',
+      area:'37.5',
+      price:'980元/月',
+      payMethod:'押一付三',
+      browseCounts:0,
+    },{
+      mainIconPath:'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      iconPaths:['cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg'],//多张图片
+      title:'房源信息系快点放假奥德赛科技发达绿山咖啡的疯狂的涉及法律框架按第三方 ',
+      location:'111',
+      direction:'朝南',
+      way:'整租',
+      houseType:'一室一厅',
+      area:'37.5',
+      price:'980元/月',
+      payMethod:'押一付三',
+      browseCounts:0,
+    },{
+      mainIconPath:'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      iconPaths:['cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg'],//多张图片
+      title:'房源信息系快点放假奥德赛科技发达绿山咖啡的疯狂的涉及法律框架按第三方 ',
+      location:'111',
+      direction:'朝南',
+      way:'整租',
+      houseType:'一室一厅',
+      area:'37.5',
+      price:'980元/月',
+      payMethod:'押一付三',
+      browseCounts:0,
+
+    },{
+      mainIconPath:'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      iconPaths:['cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+                 'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+                 'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+                 'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg'],//多张图片
+      title:'房源信息系快点放假奥德赛科技发达绿山咖啡的疯狂的涉及法律框架按第三方 ',
+      location:'111',
+      direction:'朝南',
+      way:'整租',
+      houseType:'一室一厅',
+      area:'37.5',
+      price:'980元/月',
+      payMethod:'押一付三',
+      browseCounts:0,
+    },{
+      mainIconPath:'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      iconPaths:['cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg',
+      'cloud://sp-5jcpf.7370-sp-5jcpf-1301473464/my-image.jpg'],//多张图片
+      title:'房源信息系快点放假奥德赛科技发达绿山咖啡的疯狂的涉及法律框架按第三方 ',
+      location:'1111',
+      direction:'朝南',
+      way:'整租',
+      houseType:'一室一厅',
+      area:'37.5',
+      price:'980元/月',
+      payMethod:'押一付三',
+      browseCounts:0,
+    }]
   },
   onLoad: function() {
     
@@ -26,6 +103,9 @@ Page({
       })
       console.log(this.data.comm)
     })
+  },
+  toDetailHandle(){
+    console.log("触发了跳转到详细信息页面的动作")
   },
   onShow: function() {
     let vm = this;

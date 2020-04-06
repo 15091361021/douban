@@ -7,4 +7,18 @@
     <input type="text" class="search" placeholder-class="input-placeholder"></input>
   </view>
 </view> 
+<view class="center">
+  <view wx:for="{{viewDatas}}" wx:key="key" wx:for-index="key" wx:for-item="item" bindtap="toDetailHandle" class="content">
+   
+      <image src="{{item.mainIconPath}}" class="img"></image>
+    
+    <view class="maincontent">
+      <text class="title line-limit-length">{{item.way}} | {{item.title}}</text>
+      <view class="info">{{item.area}}  ·  {{item.direction}}  ·  {{item.location}}</view>
+      <view class="price">{{item.price}}</view>
+    </view>
+    
+     
+  </view>
+</view>
 
