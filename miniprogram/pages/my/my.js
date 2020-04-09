@@ -138,6 +138,12 @@ Page({
       url: '../my_news/my_news',
     })
   },
+  uploadHandle(){
+    console.log('上传房源的操作')
+    wx.navigateTo({
+      url: '../my_house/my_house',
+    })
+  },
   /**
    * 设置
    */

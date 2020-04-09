@@ -9,11 +9,13 @@
     "pages/chooseLib/chooseLib",
     "pages/openapi/openapi",
     "pages/my/my",
+    "pages/detail/detail",
     "pages/my_collect/my_collect",
     "pages/my_comment/my_comment",
     "pages/my_opinion/my_opinion",
     "pages/my_news/my_news",
     "pages/my_set/my_set",
+    "pages/my_house/my_house",
     "pages/test/test",
     "pages/face_city/face_city"
   ],

@@ -104,9 +104,7 @@ Page({
       console.log(this.data.comm)
     })
   },
-  toDetailHandle(){
-    console.log("触发了跳转到详细信息页面的动作")
-  },
+ 
   onShow: function() {
     let vm = this;
     //vm.getUserLocation();
@@ -161,6 +159,12 @@ Page({
           vm.getLocation();
         }
       }
+    })
+  },
+  toDetailHandle:function(){
+    console.log('触发了跳转到详细信息页面的动作')
+    wx.navigateTo({
+      url: '../detail/detail',
     })
   },
   bindcity: function () {
