@@ -138,10 +138,18 @@ Page({
       url: '../my_news/my_news',
     })
   },
+  /**测试房源上传 */
   uploadHandle(){
     console.log('上传房源的操作')
     wx.navigateTo({
       url: '../my_house/my_house',
+    })
+  },
+  /**数据库指导 */
+  databaseGuide(){
+    console.log('测试数据库指导页面')
+    wx.navigateTo({
+      url: '../databaseGuide/databaseGuide',
     })
   },
   /**

@@ -88,7 +88,7 @@ Page({
     }]
   },
   onLoad: function() {
-    
+    console.log("页面初始化")
     qqmapsdk = new QQMapWX({
       key: 'T75BZ-5GUW4-GZWUJ-DXK6G-7CY25-6FFTM' //这里自己的key秘钥进行填充
     });
@@ -164,7 +164,7 @@ Page({
   toDetailHandle:function(){
     console.log('触发了跳转到详细信息页面的动作')
     wx.navigateTo({
-      url: '../detail/detail',
+      url: '../detail/detail?houserid=1',
     })
   },
   bindcity: function () {

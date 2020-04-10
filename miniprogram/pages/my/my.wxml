@@ -52,6 +52,15 @@
       <view class="item_item2_img"><image src="../images/right2.png" class="item_item2_img_img"></image></view>
     </view>
   </view>
+  <view class="item" bindtap='databaseGuide'> 
+    <view class="item_item1">
+      <image src="../images/message.png" class="item_item1_img"></image>
+    </view>
+    <view class="item_item2">
+      <view class="item_item2_text">数据库指导</view>
+      <view class="item_item2_img"><image src="../images/right2.png" class="item_item2_img_img"></image></view>
+    </view>
+  </view>
   <view class="item_none"></view>
   <view class="item" bindtap='duk_set'> 
     <view class="item_item1">
